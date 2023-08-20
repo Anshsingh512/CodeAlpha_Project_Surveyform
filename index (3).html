@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>SURVEY FORM</title>
+</head>
+<body>
+  <div class="container">
+    <h1>SURVEY FORM</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="university">University:</label>
+      <input type="text" id="university" name="university" required>
+
+      <label for="internship-type">Preferred Internship Type:</label>
+      <select id="internship-type" name="internship-type" required>
+        <option value="" disabled selected>Select preferred type</option>
+        <option value="remote">Remote</option>
+        <option value="in-person">In-Person</option>
+      </select>
+
+      <label>Areas of Interest:</label>
+      <div class="checkbox-group">
+        <label><input type="checkbox" name="interests" value="web">Web Development</label>
+        <label><input type="checkbox" name="interests" value="design">Design</label>
+        <label><input type="checkbox" name="interests" value="data">Data Analysis</label>
+        <label><input type="checkbox" name="interests" value="marketing">Marketing</label>
+      </div>
+
+      <label>Preferred Programming Languages:</label>
+      <div class="checkbox-group">
+        <label><input type="checkbox" name="languages" value="javascript">JavaScript</label>
+        <label><input type="checkbox" name="languages" value="python">Python</label>
+        <label><input type="checkbox" name="languages" value="java">Java</label>
+        <label><input type="checkbox" name="languages" value="csharp">C#</label>
+      </div>
+
+      <label for="availability">Availability (hours per week):</label>
+      <input type="number" id="availability" name="availability" required>
+
+      <label for="comments">Additional Comments:</label>
+      <textarea id="comments" name="comments" rows="4"></textarea>
+
+      <button type="button" class="submitBtn">Submit</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
