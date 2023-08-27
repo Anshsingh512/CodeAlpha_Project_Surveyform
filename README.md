@@ -1,4 +1,4 @@
-# CodeAlpha_Project_Surveyform
+# Trial_Project_Surveyform
 **Internship Survey Form**  Collect essential internship-related information with this user-friendly web survey form. It features questions about the applicant's name, contact details, university, preferred internship type, areas of interest, preferred programming languages, weekly availability, and comments. 
 # Internship Survey Form
 
